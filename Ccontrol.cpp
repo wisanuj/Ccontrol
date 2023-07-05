@@ -492,6 +492,7 @@ typedef union _data {
   char  s[4];
 } myData;
 
+/*
 extern RawSerial device;
 myData signalf;
 int n;
@@ -502,5 +503,6 @@ int n;
     device.putc(signalf.s[1]); 
     device.putc(signalf.s[2]);
     device.putc(signalf.s[3]);  
-    }  
+    } 
+*/
 }
